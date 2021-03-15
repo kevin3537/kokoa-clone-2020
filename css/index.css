@@ -1,0 +1,51 @@
+.welcome-header {
+    height: 22vh;
+    margin-bottom: 8vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome-header h1 {
+    margin: 9vh 0 3vh 0;
+    font-size: 3vh;
+}
+.welcome-header span {
+    font-size: 2vh;
+    margin: 0.3vh;
+    color: gray;
+}
+form {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    height: 5vh;
+    width: 50vh;
+    margin: 1vh 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 2.5vh;
+    color: black;
+}
+input::placeholder {
+    font-size: 2.5vh;
+}
+input[type="submit"] {
+    margin-top: 3vh;
+    background-color: yellow;
+    opacity: 0.5;
+    border-radius: 2.5vh;
+}
+input:focus {
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+input[type="submit"]:hover {
+    background-color: yellow;
+    opacity: 1;
+}
+a {
+    margin-top: 3vh;
+    font-size: 2vh;
+}

@@ -1,0 +1,78 @@
+.my-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-profile img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 3vh;
+}
+.my-profile div {
+    width: 70%;
+}
+.my-profile div h2 {
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+.my-profile div div {
+    font-size: 2vh;
+    color: gray;
+}
+.my-profile__info {
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.my-profile i {
+    font-size: 4vh;
+}
+.account-settings {
+    height: 30vh;
+}
+.account-settings__icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 0;
+}
+.icons__icon {
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons__icon i {
+    font-size: 5vh;
+    margin-bottom: 1vh;
+}
+.suggestions {
+    height: 30vh;
+}
+.suggestions__title {
+    height: 5vh;
+}
+.suggestions__items {
+    display: flex;
+}
+.suggestions__item {
+    height: 12vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.suggestions__item div:first-child {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 1vh;
+    background-color: rgb(216, 216, 0);
+}
+.suggestions__item div:last-child {
+    font-size: 1.8vh;
+    color: gray;
+    margin-top: 1vh;
+}

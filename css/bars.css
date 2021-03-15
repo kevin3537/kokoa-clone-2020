@@ -1,0 +1,53 @@
+.top-bar {
+    margin: 3vh 1vh;
+    font-size: 3.5vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar .icons {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.top-bar .icons i {
+    margin: 0 1.5vh;
+}
+.bottom-bar {
+    height: 8vh;
+    width: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vh;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+.bottom-bar i {
+    margin: 2vh 5vh;
+}
+.bottom-bar span {
+    font-size: 1.5vh;
+    height: 2.6vh;
+    width: 2.6vh;
+    border-radius: 1.3vh;
+    color: white;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 4vh;
+    left: 22vh;
+}
+.bottom-bar div {
+    height: 0.6vh;
+    width: 0.6vh;
+    border-radius: 0.3vh;
+    background-color: tomato;
+    position: absolute;
+    bottom: 5.5vh;
+    right: 4.5vh;
+}

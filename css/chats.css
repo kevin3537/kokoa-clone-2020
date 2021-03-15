@@ -1,0 +1,52 @@
+.kokoatalk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 2.5vh;
+    background-color: yellow;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kokoatalk .info {
+    height: 6vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.kokoatalk h2 {
+    font-size: 2.5vh;
+}
+.kokoatalk .info span {
+    color: gray;
+    font-size: 2vh;
+}
+.time {
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.time span {
+    margin: 0.5vh 0;
+    font-size: 1.5vh;
+    color: gray;
+    display: block;
+}
+.time span:last-child {
+    height: 2.6vh;
+    width: 2.6vh;
+    border-radius: 1.3vh;
+    color: white;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5vh;
+}

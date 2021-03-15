@@ -1,0 +1,30 @@
+body {
+    position: relative;
+}
+.settings-top-bar {
+    margin: 2vh 0;
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+.menu1, .menu2 {
+    font-size: 2.5vh;
+    margin-top: 5vh;
+}
+.menu2 {
+    margin-top: 8vh;
+}
+.menu {
+    height: 5vh;
+    margin: 2vh;
+    display: flex;
+    align-items: center;
+}
+.menu i {
+    width: 10%;
+}
+.menu1 .menu:last-child span:last-child, .menu2 .menu:nth-child(6) span:last-child {
+    position: absolute;
+    right: 3vh;
+    color: gray;
+}
