@@ -28,6 +28,17 @@
 .bottom-bar i {
     margin: 2vh 5vh;
 }
+@keyframes animation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: none;
+    }
+}
 .bottom-bar span {
     font-size: 1.5vh;
     height: 2.6vh;
@@ -41,6 +52,7 @@
     position: absolute;
     bottom: 4vh;
     left: 22vh;
+    animation: animation 1s infinite;
 }
 .bottom-bar div {
     height: 0.6vh;
