@@ -74,10 +74,9 @@ a {
 	align-items: center;
 	font-size: 30px;
 	top: 0;
-  }
-  
-  @media screen and (max-width: 645px) {
+}
+@media screen and (max-width: 645px) {
 	#no-mobile {
-	  display: none;
+	  	display: none;
 	}
-  }
+}
